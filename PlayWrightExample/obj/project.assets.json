@@ -1711,32 +1711,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\s.ferdi.deveci\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/sadik/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\PlaywrightTest\\PlayWrightExample\\PlayWrightExample.csproj",
+      "projectUniqueName": "/Users/sadik/Documents/GitHub/PlaywrightTest/PlayWrightExample/PlayWrightExample.csproj",
       "projectName": "PlayWrightExample",
-      "projectPath": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\PlaywrightTest\\PlayWrightExample\\PlayWrightExample.csproj",
-      "packagesPath": "C:\\Users\\s.ferdi.deveci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s.ferdi.deveci\\Documents\\GitHub\\PlaywrightTest\\PlayWrightExample\\obj\\",
+      "projectPath": "/Users/sadik/Documents/GitHub/PlaywrightTest/PlayWrightExample/PlayWrightExample.csproj",
+      "packagesPath": "/Users/sadik/.nuget/packages/",
+      "outputPath": "/Users/sadik/Documents/GitHub/PlaywrightTest/PlayWrightExample/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\s.ferdi.deveci\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sadik/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://tfs.icisleri.gov.tr/tfs/EDevlet/_packaging/IcisleriFeed/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -1800,7 +1793,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

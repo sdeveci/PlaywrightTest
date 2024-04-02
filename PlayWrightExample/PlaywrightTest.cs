@@ -9,23 +9,21 @@ namespace PlayWrightExample
        
         [TestMethod]
         public async Task GoogleTitleTest()
-        {
-            // Playwright'ı yükleyin
+        {           
             var playwright = await Playwright.CreateAsync();
 
             // Chromium'u başlatın (Playwright otomatik olarak global olarak yüklenmiş Chromium'u kullanacaktır)
             var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
             {
-                Headless = true // Headless modda çalıştırmak için true yapabilirsiniz
+                Headless = true // Headless modda çalıştırmak için true yapabilirsiniz. (headless mod browser açmadan arka tarafta çalışacaktır.)
             });
-
-            // Yeni bir sayfa oluşturun
+         
             var page = await browser.NewPageAsync();
 
-            // Google'a gidin
+            // Gideceğimiz adresi belirliyoruz.
             await page.GotoAsync("https://www.google.com");
 
-            // Sayfa başlığını alın
+            // Bu komutla Adresten sayfa başlığı alınır.
             var title = await page.TitleAsync();
 
             Console.WriteLine($"Page title: {title}");
